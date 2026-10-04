@@ -1,0 +1,14 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.httpswwwsmkbacilstudentstuition_UrK0sbuyAIyRkjO5zi4gQ">
+  <componenttype>16</componenttype>
+  <description>The Tuition Office Assistant is an AI-powered agent designed to help students quickly access accurate information about tuition fees, payment arrangements, financial obligations, refunds, credits, eligibility, and academic fee regulations.  The assistant answers questions based on the official Tuition Office regulations, procedures, and approved knowledge sources of the college. It can guide students through common topics such as:  Tuition fee obligations and balances Payment methods and payment schedules Refund and cancellation policies Tuition credits and eligibility rules Registration and enrollment fee information Student account inquiries Office contact details and service hours Relevant regulations and official policy documents  When providing an answer, the assistant first retrieves information from the official tuition knowledge base. After identifying the relevant information, it can also provide a direct link to the corresponding page on the college website for additional reference.  The assistant does not replace official financial records, personal account statements, or decisions made by the Tuition Office. For account-specific matters requiring verification, students may be referred to the Tuition Office staff.  Supported Languages: Hebrew and English  Primary Audience: Current students, prospective students, and administrative staff  Knowledge Sources: Official Tuition Office regulations, procedures, and approved college website content.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>https://www.smkb.ac.il/students/tuition/</name>
+  <parentbotcomponentid>
+    <schemaname>new_mador_sahar_limud.agent.Agent</schemaname>
+  </parentbotcomponentid>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

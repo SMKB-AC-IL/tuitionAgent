@@ -1,0 +1,40 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: התחל מחדש
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - ננסה שוב
+      - נתחיל מחדש
+      - מתחילים מחדש
+      - נתחיל שוב
+      - התחל שוב
+      - התחלה מחדש
+      - להתחיל שוב
+      - הפעלה מחדש
+      - להפעיל מחדש
+
+  actions:
+    - kind: Question
+      id: question_zguoVV
+      alwaysPrompt: false
+      variable: init:Topic.Confirm
+      prompt: האם אתה בטוח שברצונך להפעיל מחדש את השיחה?
+      entity: BooleanPrebuiltEntity
+
+    - kind: ConditionGroup
+      id: conditionGroup_lvx2zV
+      conditions:
+        - id: conditionItem_sVQtHa
+          condition: =Topic.Confirm = true
+          actions:
+            - kind: BeginDialog
+              id: 0YKYsy
+              dialog: new_mador_sahar_limud.topic.ResetConversation
+
+      elseActions:
+        - kind: SendActivity
+          id: sendMessage_lk2CyQ
+          activity: בסדר, נמשיך.

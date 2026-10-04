@@ -1,0 +1,12 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnConversationStart
+  id: main
+  actions:
+    - kind: SendActivity
+      id: sendMessage_M0LuhV
+      activity:
+        text:
+          - שלום, אני {System.Bot.Name}. איך אני יכול לעזור?
+        speak:
+          - שלום ותודה שהתקשרת אל {System.Bot.Name}. שים לב שחלק מהתגובות נוצרות על ידי AI ועשויות לדרוש אימות לדיוק. איך אוכל לעזור לך היום?

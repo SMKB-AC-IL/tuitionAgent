@@ -1,0 +1,31 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnUnknownIntent
+  id: main
+  priority: -1
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: search-content
+      latencyMessageSettings:
+        allowLatencyMessage: true
+        latencyMessage: כמה שניות ואני איתך...
+
+      variable: Topic.Answer
+      userInput: =System.Activity.Text
+      responseCaptureType: FullResponse
+
+    - kind: ConditionGroup
+      id: has-answer-conditions
+      conditions:
+        - id: has-answer
+          condition: =!IsBlank(Topic.Answer)
+          actions:
+            - kind: SendActivity
+              id: sendActivity_pI8XhP
+              activity: |-
+                {Topic.Answer.Text.MarkdownContent}
+                {Topic.Answer.Text.CitationSources}
+
+            - kind: EndDialog
+              id: end-topic
+              clearTopicQueue: true

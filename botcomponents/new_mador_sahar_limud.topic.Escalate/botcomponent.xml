@@ -1,0 +1,13 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.Escalate">
+  <componenttype>9</componenttype>
+  <description>נושא המערכת הזה מופעל כאשר המשתמש מציין שהוא רוצה לדבר עם נציג.
+אתה יכול להגדיר כיצד הסוכן יטפל בתרחישי מסירה אנושית דרך הגדרות הסוכן.
+אם הסוכן לא מטפל בהסלמות, יש להשבית את הנושא הזה.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>הסלם</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

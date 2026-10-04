@@ -1,0 +1,11 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.Search">
+  <componenttype>9</componenttype>
+  <description>צור תשובות גנרטיביות ממקורות ידע.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>קידום שיחות</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</botcomponent>

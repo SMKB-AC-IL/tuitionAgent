@@ -1,0 +1,11 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.Goodbye">
+  <componenttype>9</componenttype>
+  <description>נושא זה מופעל כשהמשתמש אומר שלום. כברירת מחדל, זה לא מסיים את השיחה. אם תרצה לסיים את השיחה כשהמשתמש נפרד, תוכל להוסיף לנושא זה פעולת 'סוף שיחה', או להפנות לנושא המערכת 'סוף שיחה'.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>להתראות</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

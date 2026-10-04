@@ -1,0 +1,11 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.MultipleTopicsMatched">
+  <componenttype>9</componenttype>
+  <description>נושא מערכת זה מופעל כאשר הסוכן מתאים מספר נושאים להודעה הנכנסת ויש להבהיר איזה מהם יש להפעיל.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>מספר נושאים תואמים</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

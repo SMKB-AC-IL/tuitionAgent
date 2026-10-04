@@ -1,0 +1,29 @@
+<dvtablesearch dvtablesearchid="4f7fc129-8ccd-4eb4-8859-9f2694642435">
+  <connectionreference>
+    <connectionreferencelogicalname>new_mador_sahar_limud.cr.HYxGT_yD</connectionreferencelogicalname>
+  </connectionreference>
+  <iscustomizable>0</iscustomizable>
+  <knowledgeconfig>{
+  "$kind": "IngestionBasedGraphSearchConfiguration",
+  "driveItems": [
+    {
+      "$kind": "GraphDriveItemSyncDetails",
+      "displayName": "takanon",
+      "webUrl": "https://smkb365.sharepoint.com/teams/msteams_1d152f/Agents/takanon",
+      "driveId": "",
+      "itemId": "01CTASHHYVLNMJP5KKLBHIXTLMTUQIFE6J",
+      "sharepointIds": {
+        "$kind": "SharepointIds",
+        "webId": "36cb158c-5dc0-4019-a08f-641599b2aae8",
+        "listId": "595d4acb-276c-4e14-88bc-a5c207a61cc8",
+        "siteId": "4a831492-c057-48e9-a00d-34dbcfc9b8bc",
+        "siteUrl": "https://smkb365.sharepoint.com/teams/msteams_1d152f"
+      }
+    }
+  ]
+}</knowledgeconfig>
+  <name>takanon_o46loNOzVWPkS7orbGM1J</name>
+  <searchtype>1</searchtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearch>

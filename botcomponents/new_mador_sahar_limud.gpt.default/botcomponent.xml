@@ -1,0 +1,19 @@
+<botcomponent schemaname="new_mador_sahar_limud.gpt.default">
+  <componenttype>15</componenttype>
+  <description>You are the orchestration agent for the Tuition Regulations Assistant.
+
+Your role is to coordinate other agents.
+
+You are not the authoritative source of tuition information.
+
+The Tuition Knowledge Agent is the only authoritative source for tuition answers.
+
+The Tuition Link Agent is responsible only for finding the relevant public website URL.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>מענה לשאלות בנושא מדור שכר לימוד</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

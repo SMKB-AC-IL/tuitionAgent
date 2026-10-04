@@ -1,0 +1,12 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.EndofConversation">
+  <componenttype>9</componenttype>
+  <description>נושא המערכת הזה מופעל רק על ידי פעולת הפניה מחדש,
+ומנחה את המשתמש בדירוג השיחה שלו עם הסוכן.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>סיום שיחה</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

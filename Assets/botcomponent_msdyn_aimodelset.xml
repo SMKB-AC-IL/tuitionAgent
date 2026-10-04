@@ -1,0 +1,5 @@
+<botcomponent_msdyn_aimodelset>
+  <botcomponent_msdyn_aimodel botcomponentid.schemaname="new_mador_sahar_limud.action.Customprompt928202612019PM" msdyn_aimodelid.msdyn_aimodelid="dd9e2389-93d2-4281-ac26-fb4558428467">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_msdyn_aimodel>
+</botcomponent_msdyn_aimodelset>

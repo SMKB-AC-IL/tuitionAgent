@@ -1,0 +1,25 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: ברכה
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - אחר הצהריים טובים
+      - שלום
+      - בוקר טוב
+      - הי
+      - היי
+
+  actions:
+    - kind: SendActivity
+      id: sendMessage_abmysR
+      activity:
+        text:
+          - שלום, איך אני יכול לעזור היום?
+        speak:
+          - שלום, <break strength="medium" /> איך אני יכול לעזור?
+
+    - kind: CancelAllDialogs
+      id: cancelAllDialogs_01At22

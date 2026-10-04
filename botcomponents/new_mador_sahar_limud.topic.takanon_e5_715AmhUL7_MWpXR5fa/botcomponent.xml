@@ -1,0 +1,14 @@
+<botcomponent schemaname="new_mador_sahar_limud.topic.takanon_e5_715AmhUL7_MWpXR5fa">
+  <componenttype>16</componenttype>
+  <description>This knowledge source provides information found in takanon SharePoint.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>takanon</name>
+  <parentbotcomponentid>
+    <schemaname>new_mador_sahar_limud.agent.Agent_iqf</schemaname>
+  </parentbotcomponentid>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

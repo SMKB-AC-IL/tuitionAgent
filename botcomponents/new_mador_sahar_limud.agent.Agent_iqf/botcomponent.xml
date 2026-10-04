@@ -1,0 +1,10 @@
+<botcomponent schemaname="new_mador_sahar_limud.agent.Agent_iqf">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Tuition Knowledge Agent</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

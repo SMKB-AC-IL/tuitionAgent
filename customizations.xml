@@ -1,0 +1,73 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26091.158" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.26091.00158">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <AIModels>
+    <AIModel>
+      <msdyn_aimodelid>{dd9e2389-93d2-4281-ac26-fb4558428467}</msdyn_aimodelid>
+      <msdyn_name>extract link from smkb web site</msdyn_name>
+      <msdyn_templateid>{edfdb190-3791-45d8-9a6c-8f90a37c278a}</msdyn_templateid>
+      <statecode>1</statecode>
+      <statuscode>1</statuscode>
+      <IsCustomizable>1</IsCustomizable>
+      <msdyn_activerunconfigurationid>{7d570610-8939-4081-82fe-603d8269452d}</msdyn_activerunconfigurationid>
+      <AIConfigurations>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{7d570610-8939-4081-82fe-603d8269452d}</msdyn_aiconfigurationid>
+          <msdyn_customconfiguration>{"version":"GptDynamicPrompt-2","prompt":[{"type":"literal","text":"extract link from file content and display it as md: [קישור לתקנון](https://....).\nThis is the content: "},{"type":"inputVariable","id":"file_20content"},{"type":"literal","text":" "}],"definitions":{"inputs":[{"id":"file_20content","text":"file content","type":"text"}],"formulas":[],"data":[],"output":{"formats":["text"]}},"modelParameters":{"modelType":"gpt-41-mini","gptParameters":{"temperature":0}},"settings":{"recordRetrievalLimit":30,"shouldPreserveRecordLinks":null,"runtime":null},"code":"","signature":""}</msdyn_customconfiguration>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_name>dd9e2389-93d2-4281-ac26-fb4558428467_9/28/2026 10:21:43 AM</msdyn_name>
+          <msdyn_modelrundataspecification>H4sIAAAAAAAACpWQTQuCQBRF/4q89SwqooU7+xDaJKi0jUmfNTDODM4TEvG/52RSpJvW597zPlpIDGahrkpOZ6ys0Ar8JYOjMjXFWtNBkaAG/Bb2whrJmxMvEXwABgFRJa41oXW4EBIvq0WmFaGiacFxb6QMIkP9LC7BL7i0yCBtjIslvVPdoGPA81wMmZ1rPWacwSTyLaaq/ni33OJmPdq73h/V9O+N81ukw+DJAYVQwt5j5NY99bcVvqj3xpN6v+ITddNTFpwBAAA=</msdyn_modelrundataspecification>
+          <msdyn_type>190690001</msdyn_type>
+          <msdyn_aimodelid>{dd9e2389-93d2-4281-ac26-fb4558428467}</msdyn_aimodelid>
+          <msdyn_trainedmodelaiconfigurationpareid>{e3da8c60-26bb-f111-aaaf-7ced8d4a085b}</msdyn_trainedmodelaiconfigurationpareid>
+          <statecode>2</statecode>
+          <statuscode>7</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+        <AIConfiguration>
+          <msdyn_aiconfigurationid>{e3da8c60-26bb-f111-aaaf-7ced8d4a085b}</msdyn_aiconfigurationid>
+          <msdyn_majoriterationnumber>1</msdyn_majoriterationnumber>
+          <msdyn_minoriterationnumber>0</msdyn_minoriterationnumber>
+          <msdyn_modeldata>eb20bba7-bbba-4a21-b36d-f10adaea119e</msdyn_modeldata>
+          <msdyn_name>dd9e2389-93d2-4281-ac26-fb4558428467_Training_9/28/2026 10:21:41 AM</msdyn_name>
+          <msdyn_modelrundataspecification>
+        {
+          "schemaVersion": 2,
+          "input": {},
+          "output": {}
+        }
+      </msdyn_modelrundataspecification>
+          <msdyn_type>190690000</msdyn_type>
+          <msdyn_aimodelid>{dd9e2389-93d2-4281-ac26-fb4558428467}</msdyn_aimodelid>
+          <statecode>2</statecode>
+          <statuscode>6</statuscode>
+          <IsCustomizable>1</IsCustomizable>
+          <msdyn_templateversion>1</msdyn_templateversion>
+        </AIConfiguration>
+      </AIConfigurations>
+    </AIModel>
+  </AIModels>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="new_mador_sahar_limud.cr.HYxGT_yD">
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

@@ -1,0 +1,18 @@
+kind: TaskDialog
+response:
+  activity:
+  mode: Generated
+
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: file_20content
+    name: file content
+    shouldPromptUser: true
+
+modelDisplayName: extract link from smkb web site
+modelDescription: You should get the link from the id referance in the file content you find the data before
+action:
+  kind: InvokeAIBuilderModelTaskAction
+  aIModelId: dd9e2389-93d2-4281-ac26-fb4558428467
+
+outputMode: All

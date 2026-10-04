@@ -1,0 +1,10 @@
+<botcomponent schemaname="new_mador_sahar_limud.action.Customprompt928202612019PM">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Custom prompt 9/28/2026, 1:20:19 PM</name>
+  <parentbotid>
+    <schemaname>new_mador_sahar_limud</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

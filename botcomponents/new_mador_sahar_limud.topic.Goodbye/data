@@ -1,0 +1,40 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: להתראות
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - ביי
+      - שלום
+      - להתראות
+      - ביי בינתיים
+      - לא תודה, שלום.
+      - תודה, שלום
+      - נתראה בקרוב
+
+  actions:
+    - kind: Question
+      id: question_zf2HhP
+      variable: Topic.EndConversation
+      prompt: האם תרצה לסיים את השיחה שלנו?
+      entity: BooleanPrebuiltEntity
+
+    - kind: ConditionGroup
+      id: condition_DGc1Wy
+      conditions:
+        - id: condition_DGc1Wy-item-0
+          condition: =Topic.EndConversation = true
+          actions:
+            - kind: BeginDialog
+              id: dn94DC
+              dialog: new_mador_sahar_limud.topic.EndofConversation
+
+        - id: condition_DGc1Wy-item-1
+          condition: =Topic.EndConversation = false
+          actions:
+            - kind: SendActivity
+              id: sendMessage_LdLhmf
+              activity: קדימה. אני מאזין.
